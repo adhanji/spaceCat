@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>40016DD5-4563-476C-B62E-56897C7AA0B6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Space Cat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C65ABA3F-363F-4D06-A9F2-5F9FB9D1D7E4</key>
+		<string>https://github.com/adhanji/spaceCat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Space Cat.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C65ABA3F-363F-4D06-A9F2-5F9FB9D1D7E4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adhanji/spaceCat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C65ABA3F-363F-4D06-A9F2-5F9FB9D1D7E4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C65ABA3F-363F-4D06-A9F2-5F9FB9D1D7E4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Space Cat</string>
+		</dict>
+	</array>
+</dict>
+</plist>

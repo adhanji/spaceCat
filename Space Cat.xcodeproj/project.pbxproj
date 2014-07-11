@@ -16,14 +16,13 @@
 		7873EFFD196C7545001B0BCC /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873EFFC196C7545001B0BCC /* ADAppDelegate.m */; };
 		7873F000196C7545001B0BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7873EFFE196C7545001B0BCC /* Main.storyboard */; };
 		7873F003196C7545001B0BCC /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873F002196C7545001B0BCC /* ADViewController.m */; };
-		7873F006196C7545001B0BCC /* ADMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873F005196C7545001B0BCC /* ADMyScene.m */; };
-		7873F008196C7545001B0BCC /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7873F007196C7545001B0BCC /* Spaceship.png */; };
 		7873F00A196C7545001B0BCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7873F009196C7545001B0BCC /* Images.xcassets */; };
 		7873F011196C7545001B0BCC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7873F010196C7545001B0BCC /* XCTest.framework */; };
 		7873F012196C7546001B0BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7873EFEA196C7545001B0BCC /* Foundation.framework */; };
 		7873F013196C7546001B0BCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7873EFEE196C7545001B0BCC /* UIKit.framework */; };
 		7873F01B196C7546001B0BCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7873F019196C7546001B0BCC /* InfoPlist.strings */; };
 		7873F01D196C7546001B0BCC /* Space_CatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873F01C196C7546001B0BCC /* Space_CatTests.m */; };
+		787F254F196F90720072BFD4 /* ADTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F254E196F90720072BFD4 /* ADTitleScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,15 +50,14 @@
 		7873EFFF196C7545001B0BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7873F001196C7545001B0BCC /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
 		7873F002196C7545001B0BCC /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
-		7873F004196C7545001B0BCC /* ADMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMyScene.h; sourceTree = "<group>"; };
-		7873F005196C7545001B0BCC /* ADMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMyScene.m; sourceTree = "<group>"; };
-		7873F007196C7545001B0BCC /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		7873F009196C7545001B0BCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7873F00F196C7545001B0BCC /* Space CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7873F010196C7545001B0BCC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7873F018196C7546001B0BCC /* Space CatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space CatTests-Info.plist"; sourceTree = "<group>"; };
 		7873F01A196C7546001B0BCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7873F01C196C7546001B0BCC /* Space_CatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CatTests.m; sourceTree = "<group>"; };
+		787F254D196F90720072BFD4 /* ADTitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTitleScene.h; sourceTree = "<group>"; };
+		787F254E196F90720072BFD4 /* ADTitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTitleScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +124,8 @@
 				7873EFFE196C7545001B0BCC /* Main.storyboard */,
 				7873F001196C7545001B0BCC /* ADViewController.h */,
 				7873F002196C7545001B0BCC /* ADViewController.m */,
-				7873F004196C7545001B0BCC /* ADMyScene.h */,
-				7873F005196C7545001B0BCC /* ADMyScene.m */,
-				7873F007196C7545001B0BCC /* Spaceship.png */,
+				787F254D196F90720072BFD4 /* ADTitleScene.h */,
+				787F254E196F90720072BFD4 /* ADTitleScene.m */,
 				7873F009196C7545001B0BCC /* Images.xcassets */,
 				7873EFF3196C7545001B0BCC /* Supporting Files */,
 			);
@@ -243,7 +240,6 @@
 			files = (
 				7873EFF7196C7545001B0BCC /* InfoPlist.strings in Resources */,
 				7873F00A196C7545001B0BCC /* Images.xcassets in Resources */,
-				7873F008196C7545001B0BCC /* Spaceship.png in Resources */,
 				7873F000196C7545001B0BCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +261,8 @@
 			files = (
 				7873EFF9196C7545001B0BCC /* main.m in Sources */,
 				7873F003196C7545001B0BCC /* ADViewController.m in Sources */,
+				787F254F196F90720072BFD4 /* ADTitleScene.m in Sources */,
 				7873EFFD196C7545001B0BCC /* ADAppDelegate.m in Sources */,
-				7873F006196C7545001B0BCC /* ADMyScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +469,7 @@
 				7873F022196C7546001B0BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7873F023196C7546001B0BCC /* Build configuration list for PBXNativeTarget "Space CatTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +478,7 @@
 				7873F025196C7546001B0BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
