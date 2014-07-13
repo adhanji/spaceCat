@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780727421972303D009B2EFD /* ADGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 780727411972303D009B2EFD /* ADGamePlayScene.m */; };
+		78072744197236F3009B2EFD /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78072743197236F3009B2EFD /* Sprites.atlas */; };
 		7873EFEB196C7545001B0BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7873EFEA196C7545001B0BCC /* Foundation.framework */; };
 		7873EFED196C7545001B0BCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7873EFEC196C7545001B0BCC /* CoreGraphics.framework */; };
 		7873EFEF196C7545001B0BCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7873EFEE196C7545001B0BCC /* UIKit.framework */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		780727401972303D009B2EFD /* ADGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADGamePlayScene.h; sourceTree = "<group>"; };
+		780727411972303D009B2EFD /* ADGamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADGamePlayScene.m; sourceTree = "<group>"; };
+		78072743197236F3009B2EFD /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		7873EFE7196C7545001B0BCC /* Space Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7873EFEA196C7545001B0BCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7873EFEC196C7545001B0BCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,14 +124,12 @@
 		7873EFF2196C7545001B0BCC /* Space Cat */ = {
 			isa = PBXGroup;
 			children = (
-				7873EFFB196C7545001B0BCC /* ADAppDelegate.h */,
-				7873EFFC196C7545001B0BCC /* ADAppDelegate.m */,
-				7873EFFE196C7545001B0BCC /* Main.storyboard */,
-				7873F001196C7545001B0BCC /* ADViewController.h */,
-				7873F002196C7545001B0BCC /* ADViewController.m */,
 				787F254D196F90720072BFD4 /* ADTitleScene.h */,
 				787F254E196F90720072BFD4 /* ADTitleScene.m */,
+				780727401972303D009B2EFD /* ADGamePlayScene.h */,
+				780727411972303D009B2EFD /* ADGamePlayScene.m */,
 				7873F009196C7545001B0BCC /* Images.xcassets */,
+				78072743197236F3009B2EFD /* Sprites.atlas */,
 				7873EFF3196C7545001B0BCC /* Supporting Files */,
 			);
 			path = "Space Cat";
@@ -135,6 +138,11 @@
 		7873EFF3196C7545001B0BCC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7873EFFB196C7545001B0BCC /* ADAppDelegate.h */,
+				7873EFFC196C7545001B0BCC /* ADAppDelegate.m */,
+				7873EFFE196C7545001B0BCC /* Main.storyboard */,
+				7873F001196C7545001B0BCC /* ADViewController.h */,
+				7873F002196C7545001B0BCC /* ADViewController.m */,
 				7873EFF4196C7545001B0BCC /* Space Cat-Info.plist */,
 				7873EFF5196C7545001B0BCC /* InfoPlist.strings */,
 				7873EFF8196C7545001B0BCC /* main.m */,
@@ -240,6 +248,7 @@
 			files = (
 				7873EFF7196C7545001B0BCC /* InfoPlist.strings in Resources */,
 				7873F00A196C7545001B0BCC /* Images.xcassets in Resources */,
+				78072744197236F3009B2EFD /* Sprites.atlas in Resources */,
 				7873F000196C7545001B0BCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +270,7 @@
 			files = (
 				7873EFF9196C7545001B0BCC /* main.m in Sources */,
 				7873F003196C7545001B0BCC /* ADViewController.m in Sources */,
+				780727421972303D009B2EFD /* ADGamePlayScene.m in Sources */,
 				787F254F196F90720072BFD4 /* ADTitleScene.m in Sources */,
 				7873EFFD196C7545001B0BCC /* ADAppDelegate.m in Sources */,
 			);

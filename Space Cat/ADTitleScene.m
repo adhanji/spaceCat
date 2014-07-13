@@ -7,6 +7,7 @@
 //
 
 #import "ADTitleScene.h"
+#import "ADGamePlayScene.h"
 
 @implementation ADTitleScene
 
@@ -20,6 +21,12 @@
         
     }
     return self;
+}
+
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    ADGamePlayScene *gamePlayScene = [ADGamePlayScene sceneWithSize:self.frame.size];
+    SKTransition *transition = [SKTransition fadeWithDuration:1.0];
+    [self.view presentScene:gamePlayScene transition:transition];
 }
 
 
