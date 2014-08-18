@@ -7,27 +7,31 @@
 //
 
 #import "ADGamePlayScene.h"
+#import "ADMachineNode.h"
+#import "ADSpaceCatNode.h"
 
 @implementation ADGamePlayScene
 
 -(id)initWithSize:(CGSize)size {
-    if (self = [super initWithSize:size]) {
+    if (self == [super initWithSize:size]) {
         /* Setup your scene here */
         
         SKSpriteNode *background = [SKSpriteNode spriteNodeWithImageNamed:@"background_1"];
         background.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
         [self addChild:background];
         
-        SKSpriteNode *machine = [SKSpriteNode spriteNodeWithImageNamed:@"machine_1"];
-        machine.position = CGPointMake(CGRectGetMidX(self.frame), 12);
-        machine.anchorPoint = CGPointMake(0.5, 0);
+        ADMachineNode *machine = [ADMachineNode machineAtPosition:CGPointMake(CGRectGetMidX(self.frame), 12)];
         [self addChild:machine];
+        
+        ADSpaceCatNode *spaceCat = [ADSpaceCatNode spaceCatAtPosition:CGPointMake(machine.position.x, machine.position.y - 2)];
+        [self addChild:spaceCat];
     }
     return self;
 }
 
-- (void) update:(NSTimeInterval)currentTime {
-    NSLog(@"%f", fmod(currentTime, 60));
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    ADSpaceCatNode *spaceCat = (ADSpaceCatNode*) [self childNodeWithName:@"SpaceCat"];
+    [spaceCat performTap];
 }
 
 @end

@@ -12,7 +12,7 @@
 @implementation ADTitleScene
 
 -(id)initWithSize:(CGSize)size {
-    if (self = [super initWithSize:size]) {
+    if (self == [super initWithSize:size]) {
         /* Setup your scene here */
         
         SKSpriteNode *background = [SKSpriteNode spriteNodeWithImageNamed:@"splash_1"];
