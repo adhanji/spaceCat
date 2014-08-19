@@ -9,6 +9,7 @@
 #import "ADGamePlayScene.h"
 #import "ADMachineNode.h"
 #import "ADSpaceCatNode.h"
+#import "ADProjectileNode.h"
 
 @implementation ADGamePlayScene
 
@@ -30,8 +31,22 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    for (UITouch *touch in touches) {
+        CGPoint position = [touch locationInNode:self]; // return x & y coords of touch in the scene
+        [self shootProjectileTowardsPosition:position];
+    }
+}
+
+- (void) shootProjectileTowardsPosition:(CGPoint)position {
     ADSpaceCatNode *spaceCat = (ADSpaceCatNode*) [self childNodeWithName:@"SpaceCat"];
-    [spaceCat performTap];
+    [spaceCat performTap]; // animate space cat pressing button
+    
+    ADMachineNode *machine = (ADMachineNode*) [self childNodeWithName:@"Machine"];
+    
+    ADProjectileNode *projectile = [ADProjectileNode projectileAtPosition:CGPointMake(machine.position.x,
+                                                                                      machine.position.y + machine.frame.size.height - 15)];
+    [self addChild:projectile];
+    [projectile moveTowardsPosition:position];
 }
 
 @end
